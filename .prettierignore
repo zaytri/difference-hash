@@ -1,0 +1,11 @@
+# https://prettier.io/docs/en/ignore.html
+
+# Default ignores
+#| **/.git
+#| **/.svn
+#| **/.hg
+#| **/node_modules
+
+# Dot ignores
+/.*ignore
+/.coverage

@@ -1,0 +1,48 @@
+{
+  "include": ["code"],
+  "compilerOptions": {
+    //* Type Checking *//
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    // Strict Mode
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+
+    //* Modules *//
+    "module": "esnext",
+    "moduleResolution": "node",
+
+    //* Emit *//
+    "declaration": true,
+    "outDir": "build",
+
+    //* Interop Constraints *//
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    //* Language and Environment *//
+    "lib": ["esnext"],
+    "target": "esnext"
+  },
+  //* Options for ts-node *//
+  "ts-node": {
+    "esm": true
+  }
+}
